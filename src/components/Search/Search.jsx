@@ -29,7 +29,7 @@ function Search() {
           startAdornment: (
             <InputAdornment position="start">
               <SearchIcon />
-            </InputAdornment>
+            </InputAdornment> 
           ),
         }}
       />
