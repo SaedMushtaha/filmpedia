@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import useStyles from './styles';
 import { useGetGenresQuery } from '../../services/TMDB';
 import { selectGenreOrCategory } from '../../features/currentGenreOrCategory';
+import genreIcons from '../../assets/genres';
 import logo from '../../FilmPedia.png';
 
 const redLogo = logo;
